@@ -1,0 +1,5 @@
+
+.img-banner:hover{
+    z-index: 1;
+    cursor: pointer;
+}

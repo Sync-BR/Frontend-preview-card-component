@@ -1,0 +1,154 @@
+body{
+background-color:hsl(217, 54%, 11%);
+color:white;
+overflow-x: hidden;
+}
+
+main{
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+}
+
+#inicio{
+    align-items: center;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 25vw;
+    
+    
+}
+.img{
+    align-items: center;
+    display: flex;
+    height: 60%;    
+    justify-content: center;
+    padding-bottom: 5%;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 5%;
+    position: relative;
+    width: 100% ;
+    
+}
+.icon-viwer{
+   align-items: center; 
+   background-color: rgba(139, 172, 218, 0.3);
+   display: flex;
+   height: 89%;
+   justify-content: center;
+   position: absolute;
+   width:85%;
+   z-index: 2;
+
+}
+    .img .icon-viwer img{
+        width: 100px;
+        height: 100px;
+    }
+    .img-banner{
+        z-index: 3;
+    }
+       .img-banner img{
+        border-radius:10px;
+        height: 100%;
+        width: 100%;
+        }
+    .dialogo{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1vw;
+        padding-left: 7%;
+        padding-right: 7%;
+        width: 100%;
+        }
+        .dialogo h1{
+            font-family: 'Outfit', sans-serif;
+            font-size: 23px;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+        .dialogo-texto{
+            color:hsl(215, 32%, 47%);
+            font-family: 'Outfit', sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+        }
+    .dialogo-infor{
+        align-items: center;
+        cursor:pointer;  
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        margin-bottom: 3vh;
+        width: 100%;
+    }
+        .dialogo-infor-ethereum{
+            display: flex;
+            flex-direction: row;
+            width: 50%;
+        }
+            .dialogo-infor-ethereum img{
+                width: 15px;
+                height: 20px;
+            }
+            .dialogo-infor-ethereum strong{
+                color: hsl(178, 100%, 50%);
+                font-family: 'Outfit', sans-serif;
+                font-size: 18px;
+                font-weight: 600;
+                margin-left: 10px;
+            }
+        .dialogo-infor-time{
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: 50%;
+        }
+            .dialogo-infor-time img{
+                width: 20px;
+                height: 20px;
+            }
+            .dialogo-infor-time p{
+                font-size: 18px;
+                color:hsl(214, 36%, 59%);
+            }
+    #linha{
+        width: 90%;
+        border: 1px solid hsl(215, 32%, 27%);
+    }
+    .perfil{
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 3vh;
+        width: 100%;
+    }
+        .avatar{
+            margin-left: 2vw;
+            margin-top: 2vh;
+            width: 12%;
+        }
+            .avatar img{
+                border-radius: 50%;
+                border: 1px solid hsl(0, 0%, 100%);
+                width: 100%;
+            }
+        .avatar-perfil{
+            display: flex;
+            flex-direction: row;
+            font-size: 18px;
+            justify-content: space-evenly;
+            margin-top: 2vh;
+            width: 50%;
+        }
+            .avatar-perfil span{
+                color:hsl(215, 51%, 70%) ;
+
+            }

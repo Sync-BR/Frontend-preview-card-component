@@ -1,0 +1,95 @@
+@media screen and (min-width: 1441px) {
+main{
+   padding-left: 40%;
+   padding-right: 40%;
+}
+.icon-viwer {
+   height: auto;
+   background-color: transparent;
+
+}
+    
+}
+
+/* Telas para celulares */
+@media screen and (min-width: 240px) and (max-width: 465px) {
+   
+   #inicio{
+         height: auto;
+         width: 90vw;
+
+   }
+      .img{
+         height: auto;
+         width: 90vw;
+      }
+      .icon-viwer{
+         background-color: transparent;
+         height: auto;
+         width: auto;
+      }
+      .img-banner{
+         height: 100%;
+         width: 100%;
+      }
+
+   .dialogo {
+      margin-top: 1vw;
+      width: 100%;
+
+   }
+      .dialogo-texto {
+         color: hsl(215, 32%, 47%);
+         font-size: 16px;
+         font-weight: 400;
+         padding-right: 5%;
+   }
+      .dialogo-infor-ethereum strong{
+         font-size: 14px;
+         
+      }
+      .dialogo-infor-ethereum img{
+         width: 10%;
+      }
+
+   .dialogo-infor {
+    margin-bottom: 2vh;
+   }
+   .perfil {
+      justify-content: left;
+      margin-left: 10%;
+  }
+   .avatar-perfil {
+      font-size: 16px;
+      margin-top: 2vh;
+      width: 55%;
+   }
+   .avatar img {
+      border-radius: 50%;
+      border: 1px solid hsl(0, 0%, 100%);
+      width: 80%;
+  }
+  
+}
+
+  /* telas para computadores */
+
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+   
+   #inicio{
+      width: 50vw;
+   }
+   .icon-viwer {
+      height: auto;
+      background-color: transparent;
+
+  }
+
+  .avatar-perfil {
+      justify-content: center;
+
+   }
+      .avatar-perfil p{
+         margin-left: 10px;
+      }
+}
