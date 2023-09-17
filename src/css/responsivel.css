@@ -1,21 +1,9 @@
-@media screen and (min-width: 1441px) {
-main{
-   padding-left: 40%;
-   padding-right: 40%;
-}
-.icon-viwer {
-   height: auto;
-   background-color: transparent;
-
-}
-    
-}
 
 /* Telas para celulares */
 @media screen and (min-width: 240px) and (max-width: 465px) {
    
    #inicio{
-         height: auto;
+      height: auto;
          width: 90vw;
 
    }
@@ -33,8 +21,8 @@ main{
          width: 100%;
       }
 
-   .dialogo {
-      margin-top: 1vw;
+      .dialogo {
+         margin-top: 1vw;
       width: 100%;
 
    }
@@ -43,7 +31,7 @@ main{
          font-size: 16px;
          font-weight: 400;
          padding-right: 5%;
-   }
+      }
       .dialogo-infor-ethereum strong{
          font-size: 14px;
          
@@ -51,9 +39,9 @@ main{
       .dialogo-infor-ethereum img{
          width: 10%;
       }
-
+      
    .dialogo-infor {
-    margin-bottom: 2vh;
+      margin-bottom: 2vh;
    }
    .perfil {
       justify-content: left;
@@ -68,13 +56,37 @@ main{
       border-radius: 50%;
       border: 1px solid hsl(0, 0%, 100%);
       width: 80%;
-  }
-  
+   }
+   
 }
 
-  /* telas para computadores */
+/* Telas de 500 ate 700 */
+@media screen and (min-width: 500px) and (max-width: 767px){
 
-@media screen and (min-width: 768px) and (max-width: 1440px) {
+   #inicio{
+      width:60vw ;
+   }
+   .icon-viwer {
+      height: auto;
+      background-color: transparent;
+   
+   }
+   .avatar-perfil {
+      width: auto;
+      margin-left: 1vw;
+      font-size: 18px;
+   }
+   .avatar-perfil p{
+      margin-left: 1vw;
+   }
+
+
+
+}
+
+/* telas para computadores */
+
+@media screen and (min-width: 768px) and (max-width: 800px) {
    
    #inicio{
       width: 50vw;
@@ -82,14 +94,60 @@ main{
    .icon-viwer {
       height: auto;
       background-color: transparent;
-
-  }
-
-  .avatar-perfil {
+      
+   }
+   
+   .avatar-perfil {
       justify-content: center;
-
+      
    }
       .avatar-perfil p{
          margin-left: 10px;
       }
+   
+   }
+   /* Telas de 800 pixel */
+   @media screen and (min-width:801px) and (max-width: 1200px) {
+
+      main{
+         padding-left: 33%;
+         padding-right:33% ;
+      }
+      #inicio {
+         height: auto;
+         width: 50vw;
+     }
+     .icon-viwer {
+      height: auto;
+  }
+  .avatar-perfil {
+   width: auto;
+   margin-left: 1vw;
+   font-size: 18px;
 }
+.avatar-perfil p{
+   margin-left: 1vw;
+}
+      
+   }
+
+   /* Telas maiores */
+   @media screen and (min-width: 1280px)  {
+   main{
+      padding-left: 35%;
+      padding-right: 35%;
+   }
+   .icon-viwer {
+      height: auto;
+      background-color: transparent;
+   
+   }
+   .avatar-perfil {
+      width: auto;
+      margin-left: 1vw;
+      font-size: 18px;
+   }
+   .avatar-perfil p{
+      margin-left: 1vw;
+   }
+   }
